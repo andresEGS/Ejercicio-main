@@ -1,0 +1,83 @@
+
+main {
+  margin: 0px auto;
+  display: flex;
+}
+header {
+  width: 100%;
+  overflow: hidden;
+  background: #424754;
+  height: 80px;
+  margin: 0 auto;
+}
+header nav {
+  line-height: 100px;
+  margin: 0px auto;
+}
+
+header nav a {
+  display: inline-block;
+  margin: 0px auto;
+  color: rgb(275, 570, 290);
+  text-decoration: none;
+  margin-left: 145px;
+  padding: 1px 5px;
+  line-height: normal;
+  font-size: 25px;
+  font-weight: bold;
+  -webkit-transition: all 900ms ease;
+  -o-transition: all 900ms ease;
+  transition: all 900ms ease;
+}
+
+header nav a:hover {
+  background: #04948d;
+  border-radius: 90px;
+  margin: 0px auto;
+}
+
+.img1 {
+  margin: 20px 20px 10px 10px;
+  width: 200px;
+  height: 220px;
+  float: left;
+}
+
+.tableimg {
+    padding-left: 10%;
+  width: 750px;
+  position: static;
+  top: 26px;
+  display: inline-block;
+  overflow: auto;
+  margin-bottom: 8px;
+  text-align: justify;
+  margin-right: 20px;
+}
+
+.imtable {
+  float: right;
+  padding-right: 400px;
+  margin: 0px auto;
+}
+
+.img {
+  width: 150px;
+  height: 120px;
+  margin: 0px auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 4px;
+  grid-row-gap: 26px;
+  grid-auto-rows: minmax(100px, 100px);
+  margin: 0px auto;
+}
+
+.orden {
+  font-style: oblique;
+}
+
+
